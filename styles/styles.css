@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+    /*max*/
+}
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #0EA5E9;
+    color: white;
+    font-family: "Arial Narrow";
+}
+
+.formLogin {
+    color:#0EA5E9;
+    margin-top: 250px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+}
+.emailField {
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.Email {
+    display: flex;
+    font-size: 16px;
+    font-style: italic;
+    color: #0EA5E9;
+    margin-left: 202px;
+}
+
+.passwordField {
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.passwordText {
+    display: flex;
+    font-size: 16px;
+    font-style: italic;
+    color: #0EA5E9;
+    margin-left: 202px;
+}
+
+.registerButton {
+    margin-top: 20px;
+    margin-left: 300px;
+    color: white;
+    background: #0EA5E9;
+    width: 200px;
+    height: 36px;
+    border-radius: 1px;
+    border: 0;
+    justify-content: center;
+}
+.registerButton:hover {
+    margin-top: 20px;
+    margin-left: 300px;
+    color: white;
+    background: #8ccdfa;
+    width: 200px;
+    height: 36px;
+    border-radius: 1px;
+    border: 0;
+    justify-content: center;
+}
+
+.formPassword {
+    color:#0EA5E9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginButton {
+    color: white;
+    background: #0EA5E9;
+    width: 200px;
+    height: 36px;
+    border: 0;
+    border-radius: 1px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.loginButton:hover {
+    color: white;
+    background: #8ccdfa;
+    width: 200px;
+    height: 36px;
+    border: 0;
+    border-radius: 1px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.content {
+
+    justify-content: center;
+   flex-flow: column;
+    display: flex;
+
+
+}
+
+.formRegister {
+    color:#0EA5E9;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+}
+.emailReg {
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.emailRegText {
+    font-family: "Arial Narrow";
+    font-style: italic;
+    color: #0EA5E9;
+    display: flex;
+    margin-left: 202px;
+}
+.phoneReg{
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.phoneRegText{
+    font-family: "Arial Narrow";
+    font-style: italic;
+    color: #0EA5E9;
+    display: flex;
+    margin-left: 202px;
+}
+.nameUserReg {
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.nameUserRegText {
+    font-family: "Arial Narrow";
+    font-style: italic;
+    color: #0EA5E9;
+    display: flex;
+    margin-left: 202px;
+}
+.passwordReg {
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.passwordRegText {
+    font-family: "Arial Narrow";
+    font-style: italic;
+    color: #0EA5E9;
+    display: flex;
+    margin-left: 202px;
+}
+.repeatPasswordReg {
+    width: 400px;
+    height: 48px;
+    border-color: #0EA5E9;
+    margin-left: 200px;
+    border-radius: 1px;
+}
+.repeatPasswordRegText {
+    font-family: "Arial Narrow";
+    font-style: italic;
+    color: #0EA5E9;
+    display: flex;
+    margin-left: 202px;
+}
+

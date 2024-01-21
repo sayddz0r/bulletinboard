@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Доска объявлений</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+<!--    <script src="https://cdn.tailwindcss.com"></script>-->
+    <script>
+        let AdsBoard= {};
+    </script>
+    <script src="./page/header.js"></script>
+    <script src="/page/register.js"></script>
+    <script src="/page/login.js"></script>
+    <script src="/page/loginin.js"></script>
+    <script src="page/regsuccessful.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AdsBoard.Heder.draw();
+            AdsBoard.PageLogin.draw();
+        })
+    </script>
+</head>
+<body>
+<div class="header"></div>
+<div class="content"></div>
+</body>
+</html>
